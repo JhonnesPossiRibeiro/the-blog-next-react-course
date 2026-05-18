@@ -18,7 +18,7 @@ export async function PostSummary({
 }: PostSummaryProps) {
   return (
     <div className='flex flex-col gap-4 sm:justify-center'>
-      <PostDate datetime={createdAt}></PostDate>
+      <PostDate dateTime={createdAt} />
 
       <PostHeading url={postLink} as={postHeading}>
         {title}
